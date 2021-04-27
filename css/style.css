@@ -1,2 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  padding: 30px;
+  color: #E50914;
+}
+
+.container__dati {
+  background-color: #E50914;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.container__dati span {
+  padding: 20px;
+}
 
 

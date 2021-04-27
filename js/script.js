@@ -30,12 +30,10 @@ if (isNaN(chilometriTragitto) || isNaN(etaPasseggero)) {
   } else if (etaPasseggero > 65) {
     costoBiglietto = costoBiglietto - scontoQuaranta;
     scontoApplicato = scontoQuaranta;
-
   } else {
     costoBiglietto;
     scontoApplicato = 0;
   }
-
 }
 
 // stampo il costo del biglietto
